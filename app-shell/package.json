@@ -1,0 +1,19 @@
+{
+  "name": "app-shell",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@module-federation/enhanced": "^0.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "1.0.1-rc.3",
+    "@rsbuild/plugin-react": "1.0.1-rc.3"
+  }
+}
